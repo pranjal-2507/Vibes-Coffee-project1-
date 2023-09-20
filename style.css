@@ -1,0 +1,163 @@
+body{
+    margin: 0%;
+    padding: 0;
+}
+.logo{
+    width:100%;
+    height: 70x;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    justify-content: space-evenly;
+    background-color: #463047;
+}
+
+
+#vibesNcoffee{
+width: 50%;
+height: 120px;
+}
+
+.stcontent{ 
+    background-image:url("new\ bgpg.jpg");
+    background-size: 100%;
+    text-decoration: none;
+    font-size: 35px;
+    width: 87%;
+    /* height: 700px; */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+   color:white;   
+   padding: 100px;
+   text-align: center;
+/* filter: blur(4px); */
+/* opacity: 0.4; */
+
+   #para{
+    font-size: 25px;
+
+   }
+
+}
+.button{
+    background-color: white;
+    color: white;
+    font-size: 20px;
+padding: 20px;
+border-radius: 10px;
+}
+/* #menu{
+    color:rgb(211, 202, 202);
+    text-decoration: none;
+} */
+
+
+.button:hover{
+cursor: pointer;
+
+background-color:burlywood;
+color: rgb(185, 197, 107);
+
+
+}
+.Reservationbtn{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: black;
+}
+
+
+.Reservationbtn:hover{
+    background-color: black;
+    /* height: 37px;
+    width: 25px; */
+    color: white;
+    cursor: pointer;
+}
+.Reservationbtn a:hover{
+    color: white;
+}
+
+
+
+.LandI{
+display: flex;
+justify-content: space-between;
+padding: 0px 20px;
+
+}
+.location img{
+    width: 50px;
+    padding-top: 10px;
+
+}
+
+.icons img{
+    width:150px;
+    padding-top: 15px;
+}
+
+
+#cup{
+    width: 150px;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    filter: invert(100%);
+animation-name: cup;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+
+
+}
+#another-cup{
+    width: 150px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+   
+animation-name: cup;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+}
+
+@keyframes cup{
+    0%{
+        top:50%;
+    }
+ 50%{
+    top:55%;
+ }
+100%{
+    top: 50%;
+}}
+a{
+    text-decoration: none;
+}
+.address a{
+    color: rgb(238, 246, 9);
+    text-decoration: none;
+}
+.address a:hover{
+cursor: pointer;
+color: #00fff1;
+}
+footer{background-color: rgb(126, 85, 38);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
